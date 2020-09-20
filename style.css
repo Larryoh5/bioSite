@@ -1,16 +1,22 @@
 html{
 font-size: 16px}
 
-body {
-    background-color:#D9DCE2;
+img.logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+       
 }
 
 
 p {
- font-size: 16px;
+ font-size: 12px;
     font-weight: 400;
     line-height: 1.4em;
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;}
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    padding-top: 1em;
+}
 
 h1, h2{
     font-family: 'Oswald', Verdana, Arial, sans-serif; 
@@ -24,11 +30,23 @@ h1 {
 font-weight: bold;
 }
  #container {
-     background-color: white;
-     position: relative;
+height:250px ;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background: white;
+  border-radius: 5px;
+     box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
+     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+     0 12.5px 10px rgba(0, 0, 0, 0.06),
+     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+     0 100px 80px rgba(0, 0, 0, 0.12)
+   ;
+     top: -70px;
      text-align: center;
-     margin-right: auto;
-     margin-left: auto;
+     padding: 4px;
+    
 
  }
  #container1 {
@@ -36,6 +54,7 @@ font-weight: bold;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    background-color: rgb(230, 230, 230);
  }
 
  #about {
@@ -45,36 +64,11 @@ font-weight: bold;
         padding: 3px; 
     
  }
-.icon_middle{
-}
+
 h2{
     font-weight: 500;}
 
 
-.first{
-font-size: 20px;
-    text-decoration-line: underline;}
-
-
-address {
-    color: dark darkgrey;
-    font-size: .8em;
-    font-family:  'serif';
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
-    background-color: black;
-}
-
-
-.link{    
-    color: skyblue;
-    font-size: .9em;
-    font-family: 'Quattrocento';
-    line-height: .5em}
-
-
-.link:hover{
-    color: darkblue;
-    text-decoration: underline;}
 
 .sentence{
     font-size: 24px;
@@ -83,6 +77,8 @@ address {
 .banner{
     position: relative;
     text-align: center;
+    top: 16px;
+    margin: 0px;
 }
 
 .top-left {
@@ -97,11 +93,32 @@ address {
 }
 
 .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    position: absolute ;
+    top: 15px;
+    bottom: 100px;
+    right: 100px;
+    left: 20px ;
+    background: rgba(0, 0, 0, 0.2);
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 150px;
+    width: 300px;
+}
+
+.column {
+    float:left;
+    width: 20%;
+    padding: 10px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.row{
+ 
 }
