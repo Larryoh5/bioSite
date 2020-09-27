@@ -130,6 +130,23 @@ h2{
     
 }
 
-.row{
- 
+#music{
+    float: left;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height:190px ;
+    list-style-type: none;
+    width: 80%;
+    height: 10%;
+    margin-left: 40px;
+    text-align: left;
+
 }
+
+.music ol{
+    
+}
+
