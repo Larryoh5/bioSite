@@ -17,8 +17,28 @@ p {
     font-weight: 300;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
     
 }
+
+a:link {
+    text-decoration: none;
+    color: rgb(42, 43, 46);
+    font-size: 13px ;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: slategrey;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
 
 b {
     font-size: 16px;
@@ -31,6 +51,9 @@ b {
 h1, h2, h4{
     font-family: 'Montserrat', sans-serif;
     line-height: 3em;
+}
+h4{
+    color: rgb(35, 179, 184);
 }
 
 h1 {
@@ -246,8 +269,6 @@ img #logo{
   #container2{
     position: relative;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
     background-color: rgb(230, 230, 230);
     height:300px 100%;
   width: 100;
@@ -255,6 +276,7 @@ img #logo{
   color: grey;
   padding-top: 30px;
   padding-right: 80px;
+  padding-bottom: 30px;
   margin: -10px;
   }
 
@@ -290,23 +312,28 @@ div.column1{
 
 .column1 {
     width: 20%;
-    padding: 10px;
+    padding: 0px;
     margin: 10px;
-    
+    }
+.column1 p{
+    padding-left: 1px;
+    padding-right: 1px;
 }
-
 /**Address**/
 
 .address{
-    background-color: black;
+    background-color: rgb(42, 43, 46);
     color: white;
     width: 100%;
     margin: -10px;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: -10px;
-    position: relative;
+    position: absolute;
+    text-align: center;
+
 }
+
 
 
 
